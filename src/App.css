@@ -1,0 +1,37 @@
+.App {
+  text-align: center;
+
+}
+.part1{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  
+}
+
+.header{
+  margin: 0px 10px;
+  background-color: rgb(66, 66, 227);
+  color: azure;
+  position: sticky;
+}
+
+.movie{
+  border: 3px solid black;
+  border-radius: 10px;
+  background-color: rgb(223, 218, 218);
+  /* height: 40vh;
+  width: 20vw; */
+  box-shadow: 2px 3px;
+  padding: auto;
+  margin: 20px;
+  align-items: center;
+  /* text-align: center; */
+
+}
+.movie img{
+  height: 30vh;
+  width: 15vw;
+  box-shadow: 3px 2px;
+}
